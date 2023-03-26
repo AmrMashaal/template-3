@@ -2317,7 +2317,7 @@ footer .container > a {
   -o-transition: var(--transition);
   z-index: 100000000000000000000000000;
   opacity: 0;
-  color: black;
+  color: white;
 }
 
 .hiddin1 {
