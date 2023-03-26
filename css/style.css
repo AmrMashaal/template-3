@@ -161,7 +161,7 @@ a {
 .header {
   background-color: white;
   box-shadow: 0 0 10px #ddd;
-  z-index: 50px;
+  z-index: 50;
 }
 
 .header .container {
@@ -2298,4 +2298,28 @@ footer .container > a {
   text-align: center;
   font-size: 19px;
   font-weight: bold;
+}
+
+.toUp {
+  position: fixed;
+  right: -10px;
+  bottom: 20px;
+  background-color: var(--main-color);
+  padding: 9px 16px;
+  border-radius: 6px;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+  z-index: 100000000000000000000000000;
+  opacity: 0;
+}
+
+.hiddin1 {
+  right: 20px;
+  opacity: 1;
 }
