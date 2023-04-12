@@ -42,6 +42,7 @@ a {
   transition: var(--transition);
   font-size: 30px;
   text-transform: uppercase;
+  user-select: none;
 }
 
 .main-title:hover {
